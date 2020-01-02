@@ -72,3 +72,55 @@ body {
 	background-color: rgb(0, 0, 0);
 	color: white;
 }
+
+.skill {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.chart {
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.chart .percent {
+	color: white;
+	line-height: 152px;
+	display: inline-block;
+	font-size: 35px;
+}
+
+.chart .percent:after {
+	content: '%'; 
+}
+
+.contactSection {
+	background-color: white;
+	color: black;
+}
+
+.contactButton {
+	/* color: black;
+	padding: 15px 20 px;
+	display: inline-black;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 2px; */
+	padding: 4px 12px;
+	margin-top: 20px;
+	background-image: url(../img/icons/mail.png);
+}
+
+.contactButton:hover {
+	text-decoration: none;
+	background-image: url(../img/icons/sent.png);
+}
